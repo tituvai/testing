@@ -1,0 +1,1211 @@
+
+/* All Common Css File Start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;;
+}
+a{
+    text-decoration: none;
+}
+
+ul, ol, li{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6 p{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* All Common Css File End  */
+
+/* Header Part Start   */
+
+
+.nav-item{
+    padding: 0 25px;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+.nav-link:hover{
+    color: #B88E2F;
+    border-bottom: 2px solid #B88E2F;
+}
+
+.headerIcon i{
+    font-size: 22px;
+    padding: 0 15px;
+    color: #000000;
+}
+.headerIcon i:hover{
+    color: #B88E2F;
+}
+/* Header Par End  */
+
+
+/* Banner Part Start   */
+
+#bannerPart{
+    background: url(../images/headerbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 145px;
+    padding-bottom: 110px;
+}
+
+.bannerCard{
+    background: #FFF3E3;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+.bannerCard h6{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #333333;
+}
+.bannerCard h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 65px;
+    color: #B88E2F;
+    padding-right: 110px;
+}
+.bannerCard p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #333333;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bannerCard a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 15px 40px;
+    background: #B88E2F;
+}
+/* Banner Par End  */
+
+
+
+/* liveingPart Part Start   */
+
+#liveingPart{
+    padding: 100px 0;
+}
+.liveingCard h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* liveingPart Par End  */
+
+
+
+/* product Part Start   */
+
+#productPart{
+    padding-bottom: 50px;
+}
+
+.productHeader h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #3A3A3A;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.productCard{
+    position: relative;
+}
+.productText{
+    background: #F4F5F7;
+    padding: 20px;
+}
+.productText h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #3A3A3A;
+}
+.productText p{
+ font-size: 16px;
+ font-weight: 500;
+ color: #898989;
+ line-height: 150%;
+ padding-top: 10px;
+}
+
+.productPrice{
+    display: flex;
+    justify-content: space-between;
+}
+.productPrice h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #3A3A3A;
+}
+.productPrice h6{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #B0B0B0;
+}
+
+.productPosition{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #2EC1AC;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.productPosition h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+   padding-top: 15px;
+   padding-left: 8px;
+}
+.productDiscount{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #E97171;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.productDiscount h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+   padding-top: 15px;
+   padding-left: 6px;
+}
+
+.productOverly{
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 475px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1111;
+    opacity: 0;
+}
+
+.addCard{
+    text-align: center;
+    padding-top: 200px;
+}
+.addCard a{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #B88E2F;
+    padding: 10px 30px;
+    background: #ffffff;
+}
+.productIcon{
+    text-align: center;
+    padding-top: 20px;
+}
+.productIcon i{
+    font-size: 15px;
+    color: #ffffff;
+    padding-right: 5px;
+}
+.productIcon a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.productCard:hover .productOverly{
+    opacity: 1;
+}
+
+
+.showMoer{
+ text-align: center;
+ padding-top: 50px;
+}
+.showMoer a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #B88E2F;
+    padding: 10px 40px;
+    border: 3px solid #B88E2F;
+    transition: 2s;
+}
+.showMoer a:hover{
+    background: #B88E2F;
+    color: #ffffff;
+}
+/* product Par End  */
+
+
+/* Footer Part Start   */
+
+#footerPart{
+    padding: 50px 0;
+    border-top: 1px solid #D9D9D9;
+    
+}
+.fotterPera{
+    padding-top: 50px;
+}
+.fotterPera p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    line-height: 60%;
+}
+
+
+.footerText h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #9F9F9F;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.footerMenu li{
+    padding: 20px 0;
+}
+.footerMenu a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+.footerMenu a:hover{
+    color: #E97171;
+}
+
+.footerInput input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #9F9F9F;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #9F9F9F;
+    padding-top: 30px;
+}
+.footerInput a{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    border-bottom: 2px solid #9F9F9F;
+    margin-left: 10px; 
+}
+
+.footerBorder{
+    border-top: 1px solid #9F9F9F;
+}
+.footerBorder p{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* Footer Par End  */
+
+
+
+
+
+
+
+/* ********************************* Shop Part Start  *************************************** */
+
+
+
+/* Shop Banner Part Start  */
+
+#shopBanner{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.shopOverly{
+    background: rgba(0, 0, 0, 0.4);
+    padding: 150px 0;
+}
+
+.shopText{
+    text-align: center;
+}
+.shopText h3{
+    font-size: 48px;
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.shopText a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+.shopText span{
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+}
+/* Shop Banner Part Start  */
+
+
+/* Filter Part Start  */
+
+#filterPart{
+    padding: 20px 0;
+    background: #FFF3E3;
+}
+
+.fliterFlex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fliterFlex h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+.fliterFlex p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding-left: 20px;
+    position: relative;
+}
+.fliterFlex p::after{
+    position: absolute;
+    width: 3px;
+    height: 30px;
+    background: #9F9F9F;
+    content:'' ;
+    top: 0;
+    left: 0;
+}
+.filterText{
+    display: flex;
+}
+.filterText h6{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000; 
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.filterText h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #9F9F9F;
+    padding: 10px 20px;
+    background: #ffffff; 
+    margin-left: 10px;
+}
+
+/* Filter Part End  */
+
+
+/* Product Part Start  */
+
+.nextFlex{
+    display: flex;
+    justify-content: center;
+}
+.shopNext{
+    padding: 10px 20px;
+    background: #F9F1E7;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 1s;
+}
+.shopNext:hover{
+    background: #B88E2F;
+}
+.shopNext h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+.shopNext:hover h4{
+    color: #ffffff;
+}
+
+/* Topi Part Start  */
+
+
+#topiPart{
+    padding: 80px 0;
+    background: #FAF3EA;
+}
+.topiFlex{
+    display: flex;
+    align-items: center;
+}
+.topiText h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+    color: #242424;
+    padding-left: 10px;
+}
+.topiText p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #898989;
+    padding-left: 10px;
+}
+/* Topi Part End  */
+
+/* ********************************* Shop Part End  *************************************** */
+
+
+
+
+/* *********************************** About Part Start  ************************************ */
+
+
+/* About Part Start  */
+
+#aboutPart{
+    padding: 100px 0;
+    border-bottom: 1px solid #9F9F9F;
+}
+
+.aboutCrad{
+    padding-bottom: 10px;
+}
+
+.aboutImages img{
+    height: 450px;
+}
+
+.aboutText h3{
+    font-size: 42px;
+    font-weight: 400;
+    color: #000000;
+}
+.aboutText h6{
+    font-size: 24px;
+    font-weight: 500;
+    color: #9F9F9F;
+    padding: 20px 0;
+}
+
+.aboutStar{
+    display: flex;
+}
+
+.aboutStar i{
+    color: #FFC700;
+    padding-right: 10px;
+}
+
+.aboutStar p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #9F9F9F;
+    position: relative;
+    padding-left: 20px;
+}
+
+.aboutStar p::after{
+    width: 2px;
+    height: 30px;
+    position: absolute;
+    background: #D9D9D9;
+    content: '';
+    top: 0;
+    left: 0;
+}
+
+.aboutText p{
+font-size: 15px;
+font-weight: 400;
+color: #000000;
+padding-right: 50px;
+}
+
+.aboutText h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: #9F9F9F;
+    padding: 20px 0;
+}
+
+
+.aboutFlex{
+    display: flex;  
+  }
+.aboutSize h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding: 8px 16px;
+    background: #F9F1E7;
+    margin-right: 15px;
+    border-radius: 5px;
+    transition: 1s;
+}
+.aboutSize h5:hover{
+    background: #B88E2F;
+    color: #ffffff;
+}
+
+.aboutColor{
+    display: flex;
+}
+.aboutCone{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #816DFA;
+}
+.aboutCtwo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000000;
+    margin-left: 10px;
+}
+.aboutCthree{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #B88E2F;
+    margin-left: 10px;
+}
+
+
+.aboutflex{
+    display: flex;
+    
+}
+.aboutBtn h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.aboutBtn h3 span{
+    padding: 0 15px;
+}
+.aboutButton a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+
+
+/* About Part End  */
+
+/* Suba Part Start  */
+
+#subaPart{
+    padding: 70px 0;
+    
+}
+
+.subaHeader h4{
+    font-size: 24px;
+    font-weight: 400;
+    color: #9F9F9F;
+    text-align: center;
+    
+}
+.subaHeader h4 span{
+    color: #000000;
+}
+
+.subaPera{
+    padding: 40px 0;
+}
+.subaPera p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    padding: 0 82px;
+}
+
+
+/* Suba Part End  */
+
+
+
+/* *********************************** About Part Start  ************************************ */
+
+
+/* ************************************* Card Part Start *************************************** */
+
+
+#cardPart{
+    padding: 70px 0;
+}
+.cardFlex{
+    display: flex;
+}
+.cardHead{
+    background: #F9F1E7;
+    padding: 20px 50px;
+}
+
+.cardHead h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    padding: 0 30px;
+}
+
+.cardImg{
+    background: #F9F1E7;
+    padding: 40px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.cardText{
+    text-align: center;
+
+}
+.cardText h4{
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    padding-bottom: 40px;
+}
+.totalFlex{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.totalFlex h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+.totalFlex h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+.totalFlex h5 span{
+font-size: 20px;
+font-weight: 500;
+color: #B88E2F;
+}
+.cardBtn{
+    text-align: center;
+    padding-top: 40px;
+}
+.cardBtn a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.card_Flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: center;
+}
+.diginText h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+.cardOne h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding: 5px 10px;
+    border: 1px solid #B88E2F;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.cardNum p{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.cardIcon i{
+    font-size: 20px;
+    color: #B88E2F;
+}
+
+
+/* ************************************* Card Part End *************************************** */
+
+
+
+/* ***************************************** Chackout Part Start ********************************* */
+
+
+#chackoutPart{
+    padding: 100px 0;
+}
+
+.chackoutHeader{
+    padding-bottom: 50px;
+}
+.chackoutHeader h4{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.chackoutFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chackoutInt label{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    padding: 10px 0;
+}
+.chackoutInt input{
+    width: 300px;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid #9F9F9F;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.chackoutFrom label{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    padding: 10px 0;
+}
+.chackoutFrom input{
+    width: 630px;
+    height: 70px;
+    padding-left: 10px;
+    border: 1px solid #9F9F9F;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 25px; 
+}
+
+
+
+.chackFlex{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    border-bottom: 1px solid #9F9F9F;
+    padding-bottom: 10px;
+}
+
+.chackProduct h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 30px;
+}
+.chackProduct p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+.chackSub{
+    justify-items: end;
+}
+.chackSub h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 30px;  
+}
+.chackSub p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+.chackSub h6{
+    font-size: 24px;
+    font-weight: 700;
+    color: #B88E2F;  
+}
+
+
+.chackoutDricet{
+    display: flex;
+    margin: 0 80px;
+}
+.chackColor{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000000;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.checkText h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.chackpera p{
+font-size: 16px;
+font-weight: 300;
+color: #9F9F9F;
+padding: 10px 80px;
+}
+.checkRing{
+    display: flex;
+    margin: 0 80px;
+    
+}
+.checkRing p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #9F9F9F;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.chackoutPera p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #000000;
+    padding: 10px 80px;
+}
+.chackBtn a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    
+}
+.chackBtn{
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* ***************************************** Chackout Part End ********************************* */
+
+
+
+
+/* ******************************************* Comparison Part Start *******************************  */
+
+
+
+#comparisonPart{
+    padding: 50px 0;
+}
+.compearView h3{
+font-size: 25px;
+font-weight: 500;
+color: #000000;
+line-height: 127%;
+padding-right: 63px;
+padding-bottom: 20px;
+}
+.compearView a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #727272;
+    border-bottom: 2px solid #727272;
+}
+
+.comparisonImages h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    padding: 10px 0;
+}
+.comparisonImages h6{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+}
+.comparisonIcon{
+    display: flex;
+}
+
+.comparisonIcon h5{
+    font-size: 16px;
+    font-weight: 500;
+}
+.comparisonIcon i{
+    color: #FFC700;
+    padding: 0 3px;
+}
+.comparisonIcon p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #9F9F9F;
+    padding-left: 10px;
+    position: relative;
+}
+.comparisonIcon p::after{
+    width: 2px;
+    height: 20px;
+    background: #9F9F9F;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+}
+
+.comparisonAdd h3{
+font-size: 24px;
+font-weight: 600;
+color: #000000;
+}
+.comparisonChack{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    background: #B88E2F;
+    align-items: center;
+    padding: 5px 10px;
+    margin-top: 30px;
+}
+.comparisonChack h6{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.comparisonChack i{
+    color: #ffffff;
+}
+
+
+
+/* General Part Start  */
+
+#generalPart{
+    
+}
+.generalHeader h3{
+    font-size: 28px;
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 30px;
+    
+}
+.generalBr{
+    border-top: 1px solid #9F9F9F;
+    padding-top: 30px;
+}
+
+.generalHeader{
+    padding-bottom: 40px;
+    position: relative;
+}
+.generalHeader::after{
+    position: absolute;
+    width: 1px;
+    height: 930px;
+    top: -30px;
+    right: 40px;
+    content: '';
+    background: #9F9F9F;
+}
+
+.generalpera::after{
+    position: absolute;
+    width: 1px;
+    height: 570px;
+    top: -30px;
+    right: 40px;
+    content: '';
+    background: #9F9F9F;
+}
+.generalHeader p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    
+}
+
+.generalpera{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.generalpera p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000; 
+    padding-right: 70px; 
+}
+
+.warranty h3{
+    font-size: 28px;
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 30px; 
+}
+
+.warranty p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding: 15px 0;
+}
+
+.warranty h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+.warranty h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 100px;
+}
+
+
+/* ******************************************* Comparison Part End *******************************  */
+
+
+
+/* ******************************************* contact Part Start  ******************************* */
+
+#contactPart{
+    padding: 100px 0;
+}
+
+.contactHeader{
+   margin: 0 auto;
+   text-align: center;
+}
+
+.contactHeader h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    padding-bottom: 15px;
+}
+.contactHeader p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+    padding-bottom: 80px;
+}
+
+.contactFlex{
+    display: flex;
+    padding-top: 40px;
+}
+
+.contactIcon i{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.contactAddress h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.contactAddress p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 80%;
+}
+
+.contactForm label{
+    display: block;
+    font-size: 16px;
+    width: 500;
+    color: #000000;
+    padding: 10px 0;
+}
+.contactForm input{
+    width: 500px;
+    height: 70px;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+    border: 1px solid #9F9F9F;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contactForm textarea{
+    width: 500px;
+    height: 110px;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+    border: 1px solid #9F9F9F;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.contactForm a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 15px 40px;
+    background: #B88E2F;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 5px;
+}
