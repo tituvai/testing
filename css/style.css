@@ -1066,7 +1066,7 @@ color: #000000;
     width: 1px;
     height: 570px;
     top: -30px;
-    right: 40px;
+    right: 0;
     content: '';
     background: #9F9F9F;
 }
